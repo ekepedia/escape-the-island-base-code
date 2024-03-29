@@ -1,0 +1,35 @@
+{
+  "name": "rtr-engine-for-gather-43.0.1",
+  "version": "1.0.0",
+  "description": "rtr engine developed in response to gather new version update (43.0.1)",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc -b && node dist/index.js"
+  },
+  "author": "Kevin Wong @ RaidtheRoom",
+  "license": "ISC",
+  "dependencies": {
+    "@gathertown/gather-game-client": "^43.0.1",
+    "@types/node": "^18.11.12",
+    "api": "^6.1.1",
+    "axios": "^1.6.5",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.18.2",
+    "isomorphic-ws": "^5.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "throttled-queue": "^2.1.4",
+    "ts-node": "^10.4.0",
+    "typescript": "^5.1.6",
+    "uuid": "^9.0.0",
+    "ws": "^8.13.0",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/lodash": "^4.14.200",
+    "@types/node": "^18.11.12",
+    "typescript": "^5.1.6"
+  }
+}
