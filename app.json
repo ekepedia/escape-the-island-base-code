@@ -2,17 +2,13 @@
     "name": "Escape the Island",
     "description": "This is a test deployment of escape the island",
     "env": {
-        "API_KEY": {
-            "description": "Gather API Key",
-            "value": "Yp9mowc2viQlq8xT"
-        },
-        "URL": {
-            "description": "URL for gather",
-            "value": "shA0r5lLKwkHNeZo\\escape-the-island-demo"
-        },
         "MIRO_ACCESS_TOKEN": {
             "description": "Access token for Miro",
             "value": "eyJtaXJvLm9yaWdpbiI6ImV1MDEifQ_OgFgIk1j0WR8cPEy_KHTU8wrJS8"
+        },
+        "AUTOMATED_SPACE": {
+            "description": "Automated Heroku Space",
+            "value": "true"
         }
     },
     "formation": {
